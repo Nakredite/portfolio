@@ -1,0 +1,162 @@
+.darkMode {
+  background-color: black;
+}
+
+.bg-white {
+  font-family: roboto;
+}
+
+.Nakre {
+  width: 50px;
+  height: 50px;
+}
+
+.flex-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-list-item {
+  display: block;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 25%;
+  padding: 20px;
+  margin: 10px;
+  content: center;
+  border-radius: 10px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.projects {
+  background-color: var(--bg-color);
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+.about-nakre-container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: relative;
+}
+
+.image {
+  width: 400px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 35%;
+  right: 8%;
+}
+
+/* Media query for screens smaller than a certain width (e.g., 768px) */
+@media (max-width: 768px) {
+  .image {
+    width: 60%; /* Adjust the width to a percentage for responsiveness */
+    max-width: 300px; /* Limit the maximum width on smaller screens */
+    height: auto;
+    bottom: 10px; /* Adjust the positioning for smaller screens */
+    right: 10px; /* Adjust the positioning for smaller screens */
+    position: static; /* Remove absolute positioning for smaller screens */
+    border-radius: 8px; /* Adjust border radius for smaller screens */
+  }
+}
+
+/* Encapsulate dark mode styles within a container */
+.dark-mode-container {
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode-container .dark-mode-toggle input[type="checkbox"] {
+  display: none; /* Hide the checkbox itself */
+}
+
+.dark-mode-container .switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+  background-color: #ccc;
+  border-radius: 15px;
+  margin-right: 10px; /* Add margin to separate switch from button */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dark-mode-container .switch .slider {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.dark-mode-container .switch .off {
+  background-color: #ccc;
+}
+
+.dark-mode-container .switch .on {
+  background-color: #2196f3;
+}
+
+.dark-mode-container .dark-mode-toggle button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Define dark mode styles for other elements using a class */
+.dark-mode {
+  background-color: black; /* Change to your desired dark background color */
+  color: white; /* Change to your desired dark text color */
+}

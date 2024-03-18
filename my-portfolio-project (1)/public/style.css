@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.grid-item {
+  transition: transform 0.3s ease-in-out;
+}
+.contact {
+  background-color: aquamarine;
+}
+
+.cursor {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+body {
+  cursor: url("") 16 16, auto;
+}

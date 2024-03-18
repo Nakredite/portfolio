@@ -1,0 +1,37 @@
+{
+  "name": "my-portfolio-project",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/runtime": "7.21.0",
+    "nodemon": "^3.0.1",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-responsive-carousel": "3.2.23",
+    "react-router-dom": "6.3.0",
+    "react-scripts": "^4.0.0",
+    "react-scroll": "1.8.9",
+    "react-simple-typewriter": "5.0.1",
+    "react-simple-typewriter-test": "0.0.3",
+    "react-slick": "0.29.0",
+    "use-history": "1.4.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "3.9.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
